@@ -110,7 +110,7 @@ func (s *ListContextStoreAPIKeysResponseBody) Validate() error {
 type ListContextStoreAPIKeysResponseBodyResults struct {
 	// example:
 	//
-	// sk-3ac8d45d741e4f31b81aa6ee984ce9fd
+	// apiKey
 	ApiKey *string `json:"apiKey,omitempty" xml:"apiKey,omitempty"`
 	// example:
 	//
